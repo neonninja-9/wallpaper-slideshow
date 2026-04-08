@@ -1,8 +1,14 @@
 # Wallpaper Slideshow
 
+![Wallpaper Slideshow hero](assets/hero.svg)
+
 A GNOME Shell extension that turns a plain wallpaper rotation into something that feels deliberate: smooth transitions, simple controls in the top bar, and a preferences window that stays out of the way.
 
 It cycles through images from a folder, updates both light and dark wallpaper URIs, and lets you move forward, backward, pause, or resume without leaving the desktop.
+
+![GNOME Shell](https://img.shields.io/badge/GNOME_Shell-45--49-4F46E5?style=flat-square)
+![Runtime](https://img.shields.io/badge/Runtime-GJS%20%2B%20GTK4-0EA5E9?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-10B981?style=flat-square)
 
 ## Highlights
 
@@ -16,6 +22,18 @@ It cycles through images from a folder, updates both light and dark wallpaper UR
 - Live preview of the current wallpaper inside preferences
 - Supports `JPG`, `JPEG`, `PNG`, `WEBP`, `BMP`, and `GIF`
 - Compatible with GNOME Shell `45`, `46`, `47`, `48`, and `49`
+
+## Preview
+
+Illustrated previews of the interface and layout:
+
+### Panel Menu
+
+![Panel menu preview](assets/panel-preview.svg)
+
+### Preferences Window
+
+![Preferences preview](assets/preferences-preview.svg)
 
 ## How It Works
 
@@ -133,4 +151,4 @@ The extension recognizes:
 
 ## License
 
-No license file is included yet. If you plan to publish or accept contributions, add a license to make reuse terms explicit.
+This project is released under the MIT License. See [LICENSE](LICENSE).
