@@ -1,0 +1,30 @@
+/* ============================================================
+   Wallpaper Slideshow — Panel Indicator Styles
+   ============================================================ */
+
+/* Panel button icon */
+.wallpaper-slideshow-icon {
+  icon-size: 16px;
+}
+
+/* OSD / on-screen status widget shown during transitions */
+.wallpaper-slideshow-osd {
+  border-radius: 8px;
+  padding: 8px 14px;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Separator between menu sections */
+.wallpaper-slideshow-separator {
+  margin: 4px 0;
+}
+
+/* File name label in popup menu */
+.wallpaper-slideshow-filename {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 220px;
+}

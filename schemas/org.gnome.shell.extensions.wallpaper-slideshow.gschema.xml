@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.wallpaper-slideshow"
+          path="/org/gnome/shell/extensions/wallpaper-slideshow/">
+
+    <!-- Path to the folder containing wallpapers -->
+    <key name="wallpaper-folder" type="s">
+      <default>''</default>
+      <summary>Wallpaper folder path</summary>
+      <description>Absolute path to the directory containing wallpaper images.</description>
+    </key>
+
+    <!-- Slideshow interval in seconds (10s – 3600s) -->
+    <key name="interval" type="i">
+      <default>300</default>
+      <range min="10" max="3600"/>
+      <summary>Slideshow interval in seconds</summary>
+      <description>How many seconds to display each wallpaper before cycling to the next.</description>
+    </key>
+
+    <!-- Transition animation type -->
+    <key name="transition-type" type="s">
+      <default>'fade'</default>
+      <summary>Transition animation type</summary>
+      <description>
+        The animation used when switching wallpapers.
+        Valid values: fade, slide-left, slide-right, slide-up, slide-down,
+        zoom-in, zoom-out, none, random.
+      </description>
+    </key>
+
+    <!-- Duration of the animation in milliseconds -->
+    <key name="animation-duration" type="i">
+      <default>1000</default>
+      <range min="100" max="5000"/>
+      <summary>Animation duration in milliseconds</summary>
+      <description>How long the transition animation plays when changing wallpapers.</description>
+    </key>
+
+    <!-- Whether to shuffle wallpaper order -->
+    <key name="random-order" type="b">
+      <default>false</default>
+      <summary>Use random order</summary>
+      <description>When enabled, wallpapers are selected in random order instead of sequentially.</description>
+    </key>
+
+    <!-- Slideshow paused state -->
+    <key name="paused" type="b">
+      <default>false</default>
+      <summary>Slideshow paused</summary>
+      <description>Whether the slideshow is currently paused.</description>
+    </key>
+
+    <!-- Index of the current wallpaper in the list -->
+    <key name="current-index" type="i">
+      <default>0</default>
+      <range min="0" max="9999"/>
+      <summary>Current wallpaper index</summary>
+      <description>Tracks the index of the currently displayed wallpaper for sequential mode.</description>
+    </key>
+
+  </schema>
+</schemalist>

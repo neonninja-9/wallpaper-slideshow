@@ -1,0 +1,10 @@
+{
+  "name": "Wallpaper Slideshow",
+  "description": "Automatically cycles wallpapers from a folder with smooth animated transitions. Supports fade, slide, and zoom effects with a configurable interval and panel controls.",
+  "uuid": "wallpaper-slideshow@neonninja09",
+  "shell-version": ["45", "46", "47", "48", "49"],
+  "version": 2,
+  "url": "https://github.com/neonninja09/wallpaper-slideshow",
+  "settings-schema": "org.gnome.shell.extensions.wallpaper-slideshow",
+  "gettext-domain": "wallpaper-slideshow"
+}
