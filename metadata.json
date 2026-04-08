@@ -4,7 +4,7 @@
   "uuid": "wallpaper-slideshow@neonninja09",
   "shell-version": ["45", "46", "47", "48", "49"],
   "version": 2,
-  "url": "https://github.com/neonninja09/wallpaper-slideshow",
+  "url": "https://github.com/neonninja-9/wallpaper-slideshow",
   "settings-schema": "org.gnome.shell.extensions.wallpaper-slideshow",
   "gettext-domain": "wallpaper-slideshow"
 }
